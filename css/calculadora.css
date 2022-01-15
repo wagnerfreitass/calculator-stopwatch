@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-color: rgba(58, 58, 58, 0.801);
+    height: 100vh;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(8, 8, 8, 0.527);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    background-color: rgba(10, 10, 10, 0.897);
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.botao:hover{
+    background-color: rgba(0, 0, 0, 0.123);
+}
+#resultado{
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    background-color: thistle;
+    font-size: 25px;
+    padding: 5px;
+    text-align: right;
+}
+.fundo2{
+    background-color: rgba(58, 58, 58, 0.801);
+    height: 100vh;
+    text-align: center;   
+}
+.cronometro{
+    position: absolute;
+    background-color: rgba(8, 8, 8, 0.527);
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+}
+.botaoI{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    margin: 2px;
+    background-color: rgba(10, 10, 10, 0.897);
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.botaoI:hover{
+        background-color: rgba(0, 255, 13, 0.466);
+}
+.botaoP{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    margin: 2px;
+    background-color: rgba(10, 10, 10, 0.897);
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.botaoP:hover{
+        background-color: rgba(204, 204, 204, 0.548);
+}
+.botaoZ{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    margin: 2px;
+    background-color: rgba(10, 10, 10, 0.897);
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.botaoZ:hover{
+        background-color: rgba(158, 3, 3, 0.788);
+}
+#tempo{
+    width: 240px;
+    height: 30px;
+    margin: 5px;
+    background-color: thistle;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+}
